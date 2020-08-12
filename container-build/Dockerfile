@@ -18,5 +18,4 @@ RUN chgrp -R 0 /var/log/httpd /var/run/httpd && \
     chmod -R g=u /var/log/httpd /var/run/httpd
 
 # Run as a non-privileged user
-USER 1001# Use the httpd-parent image as base
-FROM quay.io/redhattraining/httpd-parent
+USER 1001
